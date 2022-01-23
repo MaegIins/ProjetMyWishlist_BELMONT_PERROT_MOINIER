@@ -1,0 +1,5 @@
+# Language: GitIgnore
+# Path: .gitignore
+.idea/*
+vendor/*
+src/config/database.ini

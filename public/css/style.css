@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+
+html {
+	background: black;
+	color: white;
+}
+
+a {
+	color: white;
+}
+
+a:hover {
+	color: #ffa315;
+}
+
+nav {
+	background: #181818;
+	height: 80px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 0 20px;
+}
+
+.link {
+	color: white;
+	margin: 0 10px;
+	font-size: 18px;
+	text-decoration: none;
+}
+
+.link:hover {
+	color: #ffa315;
+	transition: 0.5s;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Orbitron', sans-serif;
+}
+
+.main {
+	text-align: center;
+	font-size: 20px;
+	padding: 20px 50px;
+}
+
+input, button, textarea, select {
+	border: 4px solid white;
+	border-radius: 10px;
+	background: none;
+	color: white;
+	padding: 5px 10px;
+	font-size: 16px;
+	margin: 10px;
+}
+
+select, option {
+	font-size: 20px;
+}
+
+option {
+	color: black;
+}
+
+input:disabled {
+	border: 4px solid gray;
+}
+
+button {
+	border: 4px solid #ffa315;
+	color: #ffa315;
+	font-weight: bold;
+}
+
+button:hover {
+	color: white;
+	background: #ffa315;
+	transition: 0.8s;
+}
+
+.list {
+	background: black;
+	padding: 30px;
+	width: 500px;
+	display: block;
+	margin: auto;
+	border-radius: 10px;
+	border: 2px solid white;
+	margin-top: 20px;
+}
+
